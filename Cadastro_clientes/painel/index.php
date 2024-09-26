@@ -59,12 +59,8 @@
                                             echo "<td>".$dados['email_cliente']."</td>";
                                             echo "<td>".$dados['telefone']."</td>";
                                             echo "<td>
-<<<<<<< HEAD
-                                                <a class='btn btn-info' href='atualiza_cliente.php?id=".$dados['id_cliente']."'>ATUALIZAR</a>
-=======
                                                 <a class='btn btn-info' href='atualiza_cliente.php?id=".$dados['id_cliente']."'>ATUALIZAR</a>                             
->>>>>>> efadc657327f8540ee69f6848062963b7c3a4e21
-                                                <a class='btn btn-danger' href=''>APAGAR</a>
+                                                <a class='btn btn-danger' href='processa_delete_cliente.php?id=".$dados['id_cliente']."'>APAGAR</a>
                                             </td>";
                                             echo "</tr>";
                                         }

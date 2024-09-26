@@ -3,20 +3,12 @@
     include 'menu.php';
 
     $id = $_GET['id'];
-<<<<<<< HEAD
-=======
 
->>>>>>> efadc657327f8540ee69f6848062963b7c3a4e21
     $sql = "SELECT * FROM clientes WHERE id_cliente = '$id'";
     $consulta = $conexao->query($sql);
     $dados = $consulta->fetch_assoc();
 
-<<<<<<< HEAD
-  
-
-=======
     
->>>>>>> efadc657327f8540ee69f6848062963b7c3a4e21
 
 ?>
             <div id="layoutSidenav_content">
